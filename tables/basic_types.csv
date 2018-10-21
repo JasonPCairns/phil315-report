@@ -1,0 +1,11 @@
+,Description,Logical formulation
+1,Truth-telling as saying something which is true in reality,\true$\phi \to \phi$
+2,Lying as saying something which is not the case in reality,\false$\phi \to \neg \phi$
+3,Truth-telling as saying something sincerely,\true$\phi \to B_\tau \phi$
+4,Lying as saying something insincerely,\false$\phi \to \neg B_\tau \phi$
+5,Lying as saying something believed to be untrue,\false$\phi \to  B_\tau \neg \phi$
+6,Truth-telling as saying something that is both true in reality and sincere,\true$\phi \to (\phi \wedge B_\tau \phi)$
+7,Lying as saying something that is both untrue in reality and insincere,\false$\phi \to (\phi \wedge \neg B_\tau \phi)$
+8,Lying as saying something that is both untrue in reality and believed to be untrue,\false$\phi \to (\phi \vee B_\tau \neg \phi)$
+9,Truth-telling as imparting knowledge,\true$\phi \to K_\tau \phi$
+10,Lying as imparting what one knows to be false,\false$\phi \to K_\tau \neg \phi$

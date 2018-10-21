@@ -1,0 +1,3 @@
+,Description,Logic
+11,"Gettier Truth-tellers announce truth, for the wrong reasons",(\true$\psi \to ((\neg \chi \wedge \psi ) \wedge B_\tau (\chi \to \psi ) \wedge B_\tau \chi)$)
+12,"Gettier Liars announce falsity, for the wrong reasons",(\false$\neg \psi \to ((\neg \chi \wedge \psi ) \wedge B_\tau (\chi \to \psi ) \wedge B_\tau \chi)$)

@@ -1,0 +1,18 @@
+\contentsline {chapter}{\numberline {1}Basic Types}{4}
+\contentsline {section}{\numberline {1.1}Building on Omniscience}{4}
+\contentsline {subsection}{\numberline {1.1.1}Interaction with Alan Truering and Ada Love-Lies}{5}
+\contentsline {subsection}{\numberline {1.1.2}Identification of Alan Truering and Ada Love-Lies}{5}
+\contentsline {section}{\numberline {1.2}Sincere and Insincere Men}{6}
+\contentsline {subsection}{\numberline {1.2.1}Identification of Sincerity}{7}
+\contentsline {chapter}{\numberline {2}Gettier Types}{8}
+\contentsline {section}{\numberline {2.1}Gettier Interactions}{8}
+\contentsline {subsection}{\numberline {2.1.1}State Plausibility Models}{9}
+\contentsline {chapter}{\numberline {3}Variations on Gettier Types}{11}
+\contentsline {section}{\numberline {3.1}The Beliefless Truth-teller}{11}
+\contentsline {subsection}{\numberline {3.1.1}State Plausibility Models}{11}
+\contentsline {section}{\numberline {3.2}The Uninformed Accidental Truth-teller}{12}
+\contentsline {subsection}{\numberline {3.2.1}State Plausibility Models}{13}
+\contentsline {section}{\numberline {3.3}The Accurate Believer}{13}
+\contentsline {subsection}{\numberline {3.3.1}State Plausibility Models}{14}
+\contentsline {chapter}{\numberline {4}Further Considerations}{16}
+\contentsline {chapter}{Bibliography}{17}
