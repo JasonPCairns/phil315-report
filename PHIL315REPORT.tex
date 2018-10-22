@@ -6,6 +6,8 @@
 \usepackage{float}
 \usepackage{amssymb}
 \usepackage{sidecap}
+\usepackage[notes]{biblatex-chicago}
+\bibliography{./references/references}
 \usepackage{amsmath}
 \usepackage[nottoc]{tocbibind}
 \graphicspath{ {images/} }
@@ -36,7 +38,7 @@
 Truth-telling and lying come in many different forms - we intend to develop a taxonomy through the exploration of some intuitive and counterintuitive types, and determine how an agent’s category can be identified through interaction.
 
 \section*{A Note on Belief}
-It’s worth noting that the way in which one determines belief can  have drastic impacts on logical systems of liars and truth tellers which consider belief.\cite{sep-logic-action} If a Lockean conception of belief is used, $\tau$ being set to anything less than 0.5 can result in the speaker being both a liar and truth-teller simultaneously if using a system in which liars are those who say something they believe not to be true and truth-tellers are those that say something they believe to be true.\cite{sep-logic-epistemic} 
+It’s worth noting that the way in which one determines belief can  have drastic impacts on logical systems of liars and truth tellers which consider belief.\autocite{sep-logic-action} If a Lockean conception of belief is used, $\tau$ being set to anything less than 0.5 can result in the speaker being both a liar and truth-teller simultaneously if using a system in which liars are those who say something they believe not to be true and truth-tellers are those that say something they believe to be true.\autocite{sep-logic-epistemic} 
 
 \chapter{Basic Types}
 \begin{table}[h]
@@ -130,7 +132,7 @@ An insincere man will always state $a\text{\textmusicalnote} \neg \psi$ as they 
 12 & Gettier Liars announce falsity, for the wrong reasons       & (\false$\neg \psi \to ((\neg \chi \wedge \psi ) \wedge B_\tau (\chi \to \psi ) \wedge B_\tau \chi)$) \\ \hline
 \end{tabular}
 \end{table}
-Based on Van Bentham's notion of a Gettier Truth-teller\cite{BenthemJohanvan2010Mlfo}, consider a Gettier Truth-teller defined as such; Gettier Truth-tellers announce truth, sincerely, but based on false evidence. They announce $\psi$, which is true in reality, based on some evidence $\chi$, which is false in reality. They make this based on a modus ponens implication of $(\chi \to \psi)$, the only falsity being their belief in $\chi$, which is false.\\
+Based on Van Bentham's notion of a Gettier Truth-teller\autocite{BenthemJohanvan2010Mlfo}, consider a Gettier Truth-teller defined as such; Gettier Truth-tellers announce truth, sincerely, but based on false evidence. They announce $\psi$, which is true in reality, based on some evidence $\chi$, which is false in reality. They make this based on a modus ponens implication of $(\chi \to \psi)$, the only falsity being their belief in $\chi$, which is false.\\
 Gettier Liars exist in a similar manner, the primary difference being that they seek to deceive, negating the truth, which they succeed in, but based on evidence that is false.
 
 \section{Gettier Interactions}
@@ -248,6 +250,5 @@ Building on Gettier and non-Gettier Types:
 \item Is this non-Gettier approach a useful approach ir is too much redundancy embedded in it?
 \end{itemize}
 
-\bibliographystyle{plain}
-\bibliography{./references/references}
+\printbibliography
 \end{document}

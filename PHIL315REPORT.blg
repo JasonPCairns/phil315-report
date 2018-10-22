@@ -1,3 +1,17 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: PHIL315REPORT.aux
-The style file: plain.bst
-Database file #1: ./references/references.bib
+[0] Config.pm:302> INFO - This is Biber 2.11
+[1] Config.pm:305> INFO - Logfile is 'PHIL315REPORT.blg'
+[79] biber-MSWIN64:313> INFO - === 
+[144] Biber.pm:371> INFO - Reading 'PHIL315REPORT.bcf'
+[403] Biber.pm:857> INFO - Found 3 citekeys in bib section 0
+[434] Biber.pm:3976> INFO - Processing section 0
+[465] Biber.pm:4136> INFO - Looking for bibtex format file './references/references.bib' for section 0
+[503] bibtex.pm:1454> INFO - Reading ascii input as UTF-8
+[513] bibtex.pm:1500> INFO - LaTeX decoding ...
+[544] bibtex.pm:1316> INFO - Found BibTeX data source './references/references.bib'
+[667] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[668] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[673] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[686] Biber.pm:3804> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
+[690] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[700] bbl.pm:617> INFO - Writing 'PHIL315REPORT.bbl' with encoding 'ascii'
+[709] bbl.pm:720> INFO - Output to PHIL315REPORT.bbl

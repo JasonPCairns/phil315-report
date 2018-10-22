@@ -1,23 +1,150 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{BenthemJohanvan2010Mlfo}
-Johan~van Benthem.
-\newblock {\em Modal logic for open minds}.
-\newblock CSLI Publications, Center for the Study of Language and Information,
-  Leland Stanford Junior University, Stanford, Calif., 2010.
 
-\bibitem{sep-logic-epistemic}
-Vincent Hendricks and John Symons.
-\newblock Epistemic logic.
-\newblock In Edward~N. Zalta, editor, {\em The Stanford Encyclopedia of
-  Philosophy}. Metaphysics Research Lab, Stanford University, fall 2015
-  edition, 2015.
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{BenthemJohanvan2010Mlfo}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d36c82cd6cfe1b386958269b9330a108}{%
+           family={Benthem},
+           familyi={B\bibinitperiod},
+           given={Johan\bibnamedelima van},
+           giveni={J\bibinitperiod\bibinitdelim v\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Stanford, Calif.}%
+      }
+      \list{publisher}{2}{%
+        {CSLI Publications, Center for the Study of Language}%
+        {Information, Leland Stanford Junior University}%
+      }
+      \strng{namehash}{d36c82cd6cfe1b386958269b9330a108}
+      \strng{fullhash}{d36c82cd6cfe1b386958269b9330a108}
+      \strng{bibnamehash}{d36c82cd6cfe1b386958269b9330a108}
+      \strng{authorbibnamehash}{d36c82cd6cfe1b386958269b9330a108}
+      \strng{authornamehash}{d36c82cd6cfe1b386958269b9330a108}
+      \strng{authorfullhash}{d36c82cd6cfe1b386958269b9330a108}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781575865980}
+      \field{title}{Modal logic for open minds}
+      \field{year}{2010}
+      \keyw{Modality (Logic); Modality (Theory of knowledge)}
+    \endentry
+    \entry{sep-logic-epistemic}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=702b6739b63adf4013469f183b67de65}{%
+           family={Hendricks},
+           familyi={H\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d6befcab2233da35b030592db056193a}{%
+           family={Symons},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d9b6284b7816d9e586e8af9a253ba08e}{%
+           family={Zalta},
+           familyi={Z\bibinitperiod},
+           given={Edward\bibnamedelima N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Metaphysics Research Lab, Stanford University}%
+      }
+      \strng{namehash}{00a12310ee1021006aed519b53c70176}
+      \strng{fullhash}{00a12310ee1021006aed519b53c70176}
+      \strng{bibnamehash}{00a12310ee1021006aed519b53c70176}
+      \strng{authorbibnamehash}{00a12310ee1021006aed519b53c70176}
+      \strng{authornamehash}{00a12310ee1021006aed519b53c70176}
+      \strng{authorfullhash}{00a12310ee1021006aed519b53c70176}
+      \strng{editorbibnamehash}{d9b6284b7816d9e586e8af9a253ba08e}
+      \strng{editornamehash}{d9b6284b7816d9e586e8af9a253ba08e}
+      \strng{editorfullhash}{d9b6284b7816d9e586e8af9a253ba08e}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Stanford Encyclopedia of Philosophy}
+      \field{edition}{Fall 2015}
+      \field{howpublished}{\url{https://plato.stanford.edu/archives/fall2015/entries/logic-epistemic/}}
+      \field{title}{Epistemic Logic}
+      \field{year}{2015}
+    \endentry
+    \entry{sep-logic-action}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=d7abbe80329c2fd25304dc3e42d04fca}{%
+           family={Segerberg},
+           familyi={S\bibinitperiod},
+           given={Krister},
+           giveni={K\bibinitperiod}}}%
+        {{hash=564ec094d1c417b9e5265214c200b81a}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={John-Jules},
+           giveni={J\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=7e0c7987cc1192f0590be7c97b295b07}{%
+           family={Kracht},
+           familyi={K\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d9b6284b7816d9e586e8af9a253ba08e}{%
+           family={Zalta},
+           familyi={Z\bibinitperiod},
+           given={Edward\bibnamedelima N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Metaphysics Research Lab, Stanford University}%
+      }
+      \strng{namehash}{48374fd50606862a65a17a20fcc26908}
+      \strng{fullhash}{48374fd50606862a65a17a20fcc26908}
+      \strng{bibnamehash}{48374fd50606862a65a17a20fcc26908}
+      \strng{authorbibnamehash}{48374fd50606862a65a17a20fcc26908}
+      \strng{authornamehash}{48374fd50606862a65a17a20fcc26908}
+      \strng{authorfullhash}{48374fd50606862a65a17a20fcc26908}
+      \strng{editorbibnamehash}{d9b6284b7816d9e586e8af9a253ba08e}
+      \strng{editornamehash}{d9b6284b7816d9e586e8af9a253ba08e}
+      \strng{editorfullhash}{d9b6284b7816d9e586e8af9a253ba08e}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Stanford Encyclopedia of Philosophy}
+      \field{edition}{Winter 2016}
+      \field{howpublished}{\url{https://plato.stanford.edu/archives/win2016/entries/logic-action/}}
+      \field{title}{The Logic of Action}
+      \field{year}{2016}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem{sep-logic-action}
-Krister Segerberg, John-Jules Meyer, and Marcus Kracht.
-\newblock The logic of action.
-\newblock In Edward~N. Zalta, editor, {\em The Stanford Encyclopedia of
-  Philosophy}. Metaphysics Research Lab, Stanford University, winter 2016
-  edition, 2016.
-
-\end{thebibliography}
