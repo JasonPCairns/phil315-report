@@ -1,0 +1,7 @@
+make sure you have latex, biber, bibtex
+open powershell in main folder (this one)
+
+>latex PHIL315REPORT
+>biber PHIL315REPORT
+>latex PHIL315REPORT
+>latex PHIL315REPORT
