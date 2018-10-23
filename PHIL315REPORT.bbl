@@ -19,6 +19,89 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
+    \entry{AdamCarter2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=90d65c8dae29b1dacbf9bd647b640449}{%
+           family={Adam\bibnamedelima Carter},
+           familyi={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a65bb90493d6d5d759f4de18b06da648}{%
+           family={Jarvis},
+           familyi={J\bibinitperiod},
+           given={Benjamin\bibnamedelima W.},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=6a720111ee62d84d4cc7ffacd0af6667}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{73db0f5c412ca50f734b3f6cde306655}
+      \strng{fullhash}{73db0f5c412ca50f734b3f6cde306655}
+      \strng{bibnamehash}{73db0f5c412ca50f734b3f6cde306655}
+      \strng{authorbibnamehash}{73db0f5c412ca50f734b3f6cde306655}
+      \strng{authornamehash}{73db0f5c412ca50f734b3f6cde306655}
+      \strng{authorfullhash}{73db0f5c412ca50f734b3f6cde306655}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{One of the deepest ideological divides in contemporary epistemology concerns the relative importance of belief versus credence. A prominent consideration in favor of credence-based epistemology is the ease with which it appears to account for rational action. In contrast, cases with risky payoff structures threaten to break the link between rational belief and rational action. This threat poses a challenge to traditional epistemology, which maintains the theoretical prominence of belief. The core problem, we suggest, is that belief may not be enough to register all aspects of a subject's epistemic position with respect to any given proposition. We claim this problem can be solved by introducing other doxastic attitudes---genuine representations---that differ in strength from belief. The resulting alternative picture, a kind of doxastic states pluralism, retains the central features of traditional epistemology---most saliently, an emphasis on truth as a kind of objective accuracy---while adequately accounting for rational action.}
+      \field{issn}{1573-0964}
+      \field{journaltitle}{Synthese}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Belief without credence}
+      \field{volume}{193}
+      \field{year}{2016}
+      \field{pages}{2323\bibrangedash 2351}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/s11229-015-0846-6
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11229-015-0846-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11229-015-0846-6
+      \endverb
+    \endentry
+    \entry{BenthemJohanvan2011Ldoi}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d36c82cd6cfe1b386958269b9330a108}{%
+           family={Benthem},
+           familyi={B\bibinitperiod},
+           given={Johan\bibnamedelima van},
+           giveni={J\bibinitperiod\bibinitdelim v\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Cambridge ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{d36c82cd6cfe1b386958269b9330a108}
+      \strng{fullhash}{d36c82cd6cfe1b386958269b9330a108}
+      \strng{bibnamehash}{d36c82cd6cfe1b386958269b9330a108}
+      \strng{authorbibnamehash}{d36c82cd6cfe1b386958269b9330a108}
+      \strng{authornamehash}{d36c82cd6cfe1b386958269b9330a108}
+      \strng{authorfullhash}{d36c82cd6cfe1b386958269b9330a108}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{"}This book develops a new view of logic as a theory of information-driven agency and intelligent interaction between many agents - with conversation, argumentation and games as guiding examples. It provides one uniform account of dynamic logics for acts of inference, observation, questions and communication, that can handle both update of knowledge and revision of beliefs. It then extends the dynamic style of analysis to include changing preferences and goals, temporal processes, group action and strategic interaction in games. Throughout, the book develops a mathematical theory unifying all these systems, and positioning them at the interface of logic, philosophy, computer science and game theory. A series of further chapters explores repercussions of the 'dynamic stance' for these areas, as well as cognitive science{"}-- Provided by publisher.}
+      \field{isbn}{9780521765794}
+      \field{title}{Logical dynamics of information and interaction}
+      \field{year}{2011}
+      \keyw{Logic,Symbolic and mathematical}
+    \endentry
     \entry{BenthemJohanvan2010Mlfo}{book}{}
       \name{author}{1}{}{%
         {{hash=d36c82cd6cfe1b386958269b9330a108}{%
@@ -53,66 +136,87 @@
       \field{year}{2010}
       \keyw{Modality (Logic); Modality (Theory of knowledge)}
     \endentry
-    \entry{sep-logic-epistemic}{incollection}{}
-      \name{author}{2}{}{%
-        {{hash=702b6739b63adf4013469f183b67de65}{%
-           family={Hendricks},
-           familyi={H\bibinitperiod},
-           given={Vincent},
-           giveni={V\bibinitperiod}}}%
-        {{hash=d6befcab2233da35b030592db056193a}{%
-           family={Symons},
-           familyi={S\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
+    \entry{Buchak2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f21990288b80b29b06798444132a223d}{%
+           family={Buchak},
+           familyi={B\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod}}}%
       }
-      \name{editor}{1}{}{%
-        {{hash=d9b6284b7816d9e586e8af9a253ba08e}{%
-           family={Zalta},
-           familyi={Z\bibinitperiod},
-           given={Edward\bibnamedelima N.},
-           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Metaphysics Research Lab, Stanford University}%
-      }
-      \strng{namehash}{00a12310ee1021006aed519b53c70176}
-      \strng{fullhash}{00a12310ee1021006aed519b53c70176}
-      \strng{bibnamehash}{00a12310ee1021006aed519b53c70176}
-      \strng{authorbibnamehash}{00a12310ee1021006aed519b53c70176}
-      \strng{authornamehash}{00a12310ee1021006aed519b53c70176}
-      \strng{authorfullhash}{00a12310ee1021006aed519b53c70176}
-      \strng{editorbibnamehash}{d9b6284b7816d9e586e8af9a253ba08e}
-      \strng{editornamehash}{d9b6284b7816d9e586e8af9a253ba08e}
-      \strng{editorfullhash}{d9b6284b7816d9e586e8af9a253ba08e}
-      \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \strng{namehash}{f21990288b80b29b06798444132a223d}
+      \strng{fullhash}{f21990288b80b29b06798444132a223d}
+      \strng{bibnamehash}{f21990288b80b29b06798444132a223d}
+      \strng{authorbibnamehash}{f21990288b80b29b06798444132a223d}
+      \strng{authornamehash}{f21990288b80b29b06798444132a223d}
+      \strng{authorfullhash}{f21990288b80b29b06798444132a223d}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
       \true{uniquework}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{The Stanford Encyclopedia of Philosophy}
-      \field{edition}{Fall 2015}
-      \field{howpublished}{\url{https://plato.stanford.edu/archives/fall2015/entries/logic-epistemic/}}
-      \field{title}{Epistemic Logic}
-      \field{year}{2015}
+      \field{abstract}{There are currently two robust traditions in philosophy dealing with doxastic attitudes: the tradition that is concerned primarily with all-or-nothing belief, and the tradition that is concerned primarily with degree of belief or credence. This paper concerns the relationship between belief and credence for a rational agent, and is directed at those who may have hoped that the notion of belief can either be reduced to credence or eliminated altogether when characterizing the norms governing ideally rational agents. It presents a puzzle which lends support to two theses. First, that there is no formal reduction of a rational agent's beliefs to her credences, because belief and credence are each responsive to different features of a body of evidence. Second, that if our traditional understanding of our practices of holding each other responsible is correct, then belief has a distinctive role to play, even for ideally rational agents, that cannot be played by credence. The question of which avenues remain for the credence-only theorist is considered.}
+      \field{issn}{1573-0883}
+      \field{journaltitle}{Philosophical Studies}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Belief, credence, and norms}
+      \field{volume}{169}
+      \field{year}{2014}
+      \field{pages}{285\bibrangedash 311}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/s11098-013-0182-y
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11098-013-0182-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11098-013-0182-y
+      \endverb
     \endentry
-    \entry{sep-logic-action}{incollection}{}
-      \name{author}{3}{}{%
-        {{hash=d7abbe80329c2fd25304dc3e42d04fca}{%
-           family={Segerberg},
-           familyi={S\bibinitperiod},
-           given={Krister},
-           giveni={K\bibinitperiod}}}%
-        {{hash=564ec094d1c417b9e5265214c200b81a}{%
-           family={Meyer},
+    \entry{Jackson2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0e183ca0a15f60695a01eae4fb39fa37}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Elizabeth\bibnamedelima Grace},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e183ca0a15f60695a01eae4fb39fa37}
+      \strng{fullhash}{0e183ca0a15f60695a01eae4fb39fa37}
+      \strng{bibnamehash}{0e183ca0a15f60695a01eae4fb39fa37}
+      \strng{authorbibnamehash}{0e183ca0a15f60695a01eae4fb39fa37}
+      \strng{authornamehash}{0e183ca0a15f60695a01eae4fb39fa37}
+      \strng{authorfullhash}{0e183ca0a15f60695a01eae4fb39fa37}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, I argue that the relationship between belief and credence is a central question in epistemology. This is because the belief-credence relationship has significant implications for a number of current epistemological issues. I focus on five controversies: permissivism, disagreement, pragmatic encroachment, doxastic voluntarism, and the relationship between doxastic attitudes and prudential rationality. I argue that each debate is constrained in particular ways, depending on whether the relevant attitude is belief or credence. This means that (i) epistemologists should pay attention to whether they are framing questions in terms of belief or in terms of credence and (ii) the success or failure of a reductionist project in the belief-credence realm has significant implications for epistemology generally.}
+      \field{issn}{1573-0883}
+      \field{journaltitle}{Philosophical Studies}
+      \field{month}{7}
+      \field{title}{Belief and credence: why the attitude-type matters}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1007/s11098-018-1136-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11098-018-1136-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11098-018-1136-1
+      \endverb
+    \endentry
+    \entry{sep-lying-definition}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=db80c54cbdad563b9aea218d257bed8a}{%
+           family={Mahon},
            familyi={M\bibinitperiod},
-           given={John-Jules},
-           giveni={J\bibinithyphendelim J\bibinitperiod}}}%
-        {{hash=7e0c7987cc1192f0590be7c97b295b07}{%
-           family={Kracht},
-           familyi={K\bibinitperiod},
-           given={Marcus},
-           giveni={M\bibinitperiod}}}%
+           given={James\bibnamedelima Edwin},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
       }
       \name{editor}{1}{}{%
         {{hash=d9b6284b7816d9e586e8af9a253ba08e}{%
@@ -124,25 +228,64 @@
       \list{publisher}{1}{%
         {Metaphysics Research Lab, Stanford University}%
       }
-      \strng{namehash}{48374fd50606862a65a17a20fcc26908}
-      \strng{fullhash}{48374fd50606862a65a17a20fcc26908}
-      \strng{bibnamehash}{48374fd50606862a65a17a20fcc26908}
-      \strng{authorbibnamehash}{48374fd50606862a65a17a20fcc26908}
-      \strng{authornamehash}{48374fd50606862a65a17a20fcc26908}
-      \strng{authorfullhash}{48374fd50606862a65a17a20fcc26908}
+      \strng{namehash}{db80c54cbdad563b9aea218d257bed8a}
+      \strng{fullhash}{db80c54cbdad563b9aea218d257bed8a}
+      \strng{bibnamehash}{db80c54cbdad563b9aea218d257bed8a}
+      \strng{authorbibnamehash}{db80c54cbdad563b9aea218d257bed8a}
+      \strng{authornamehash}{db80c54cbdad563b9aea218d257bed8a}
+      \strng{authorfullhash}{db80c54cbdad563b9aea218d257bed8a}
       \strng{editorbibnamehash}{d9b6284b7816d9e586e8af9a253ba08e}
       \strng{editornamehash}{d9b6284b7816d9e586e8af9a253ba08e}
       \strng{editorfullhash}{d9b6284b7816d9e586e8af9a253ba08e}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \true{uniquework}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The Stanford Encyclopedia of Philosophy}
       \field{edition}{Winter 2016}
-      \field{howpublished}{\url{https://plato.stanford.edu/archives/win2016/entries/logic-action/}}
-      \field{title}{The Logic of Action}
+      \field{howpublished}{\url{https://plato.stanford.edu/archives/win2016/entries/lying-definition/}}
+      \field{title}{The Definition of Lying and Deception}
       \field{year}{2016}
+    \endentry
+    \entry{WeinerE.S.C.1989TOEd}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6ec6159dbaf19647cd8f975ca1f9b626}{%
+           family={Weiner},
+           familyi={W\bibinitperiod},
+           given={E.\bibnamedelimi S.\bibnamedelimi C.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=71885155fba6758a993ea7a73d68ed90}{%
+           family={Simpson},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Oxford : Oxford ; Oxford University Press}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press ; New York}%
+      }
+      \strng{namehash}{6695e7e2e9fa8d818c4c4b13cf0e1ce1}
+      \strng{fullhash}{6695e7e2e9fa8d818c4c4b13cf0e1ce1}
+      \strng{bibnamehash}{6695e7e2e9fa8d818c4c4b13cf0e1ce1}
+      \strng{authorbibnamehash}{6695e7e2e9fa8d818c4c4b13cf0e1ce1}
+      \strng{authornamehash}{6695e7e2e9fa8d818c4c4b13cf0e1ce1}
+      \strng{authorfullhash}{6695e7e2e9fa8d818c4c4b13cf0e1ce1}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed. / prepared by J.A. Simpson and E.S.C. Weiner..}
+      \field{isbn}{0198611862}
+      \field{title}{The Oxford English dictionary.}
+      \field{year}{1989}
+      \keyw{English language -- Dictionaries}
     \endentry
   \enddatalist
 \endrefsection
