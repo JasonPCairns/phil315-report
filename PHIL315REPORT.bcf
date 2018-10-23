@@ -2779,9 +2779,7 @@
     <bcf:datasource type="file" datatype="bibtex">./references/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">sep-logic-action</bcf:citekey>
-    <bcf:citekey order="2">sep-logic-epistemic</bcf:citekey>
-    <bcf:citekey order="3">BenthemJohanvan2010Mlfo</bcf:citekey>
+    <bcf:citekey order="1">BenthemJohanvan2010Mlfo</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="cms">

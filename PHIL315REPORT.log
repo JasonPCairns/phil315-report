@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.17)  23 OCT 2018 09:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.17)  23 OCT 2018 16:22
 entering extended mode
 **./PHIL315REPORT.tex
 (PHIL315REPORT.tex
@@ -553,24 +553,24 @@ File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 (PHIL315REPORT.aux)
 \openout1 = `PHIL315REPORT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -668,30 +668,30 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'PHIL315REPORT.bbl' found.
  (PHIL315REPORT.bbl)
-Package biblatex Info: Reference section=0 on input line 32.
-Package biblatex Info: Reference segment=0 on input line 32.
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
 Package epstopdf Info: Source file: <images/alice.eps>
 (epstopdf)                    date: 2018-10-21 16:42:39
 (epstopdf)                    size: 299261 bytes
 (epstopdf)             Output file: <images/alice-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:10
+(epstopdf)                    date: 2018-10-23 16:14:48
 (epstopdf)                    size: 146110 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/alice-eps-converted-
 to.pdf images/alice.eps>
-(epstopdf)             \includegraphics on input line 34.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 <images/alice-eps-converted-to.pdf, id=1, 565.11125pt x 437.635pt>
 File: images/alice-eps-converted-to.pdf Graphic file (type pdf)
 <use images/alice-eps-converted-to.pdf>
 Package pdftex.def Info: images/alice-eps-converted-to.pdf  used on input line 
-34.
+35.
 (pdftex.def)             Requested size: 312.9803pt x 242.38278pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -705,10 +705,6 @@ ce-eps-converted-to.pdf>] (PHIL315REPORT.toc)
  [2
 
 ]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -717,60 +713,239 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 Chapter 1.
-[4
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+ [4
 
 ]
-Overfull \hbox (12.39749pt too wide) detected at line 90
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+
+[5] [6]
+Chapter 2.
+[7
+
+]
+Overfull \hbox (12.39749pt too wide) detected at line 119
 []
  []
 
+
+Underfull \vbox (badness 4739) has occurred while \output is active []
+
+ [8]
 Package epstopdf Info: Source file: <images/slide10.eps>
 (epstopdf)                    date: 2018-10-22 13:03:06
 (epstopdf)                    size: 52563 bytes
 (epstopdf)             Output file: <images/slide10-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:12
+(epstopdf)                    date: 2018-10-23 16:14:49
 (epstopdf)                    size: 49777 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/slide10-eps-converte
 d-to.pdf images/slide10.eps>
-(epstopdf)             \includegraphics on input line 100.
+(epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
-<images/slide10-eps-converted-to.pdf, id=28, 411.5375pt x 263.98625pt>
+<images/slide10-eps-converted-to.pdf, id=40, 411.5375pt x 263.98625pt>
 File: images/slide10-eps-converted-to.pdf Graphic file (type pdf)
 <use images/slide10-eps-converted-to.pdf>
 Package pdftex.def Info: images/slide10-eps-converted-to.pdf  used on input lin
-e 100.
+e 129.
 (pdftex.def)             Requested size: 209.12683pt x 134.14783pt.
 Package epstopdf Info: Source file: <images/slide11.eps>
 (epstopdf)                    date: 2018-10-22 13:03:31
 (epstopdf)                    size: 77872 bytes
 (epstopdf)             Output file: <images/slide11-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:13
+(epstopdf)                    date: 2018-10-23 16:14:50
 (epstopdf)                    size: 75327 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/slide11-eps-converte
 d-to.pdf images/slide11.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
-<images/slide11-eps-converted-to.pdf, id=29, 418.56375pt x 280.04625pt>
+<images/slide11-eps-converted-to.pdf, id=41, 418.56375pt x 280.04625pt>
 File: images/slide11-eps-converted-to.pdf Graphic file (type pdf)
 <use images/slide11-eps-converted-to.pdf>
 Package pdftex.def Info: images/slide11-eps-converted-to.pdf  used on input lin
-e 105.
+e 134.
 (pdftex.def)             Requested size: 209.12683pt x 139.91594pt.
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
 
  []
 
-[6 <./images/slide10-eps-converted-to.pdf> <./images/slide11-eps-converted-to.p
-df>] [7] [8]
-Chapter 2.
+[9 <./images/slide10-eps-converted-to.pdf>] [10 <./images/slide11-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <images/slide40.eps>
+(epstopdf)                    date: 2018-10-23 16:07:21
+(epstopdf)                    size: 118792 bytes
+(epstopdf)             Output file: <images/slide40-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-23 16:14:52
+(epstopdf)                    size: 119075 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/slide40-eps-converte
+d-to.pdf images/slide40.eps>
+(epstopdf)             \includegraphics on input line 176.
+Package epstopdf Info: Output file is already uptodate.
+<images/slide40-eps-converted-to.pdf, id=55, 665.48625pt x 382.42876pt>
+File: images/slide40-eps-converted-to.pdf Graphic file (type pdf)
+<use images/slide40-eps-converted-to.pdf>
+Package pdftex.def Info: images/slide40-eps-converted-to.pdf  used on input lin
+e 176.
+(pdftex.def)             Requested size: 209.12683pt x 120.17392pt.
 
-Underfull \hbox (badness 4156) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+
+ []
+
+[11 <./images/slide40-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/slide41.eps>
+(epstopdf)                    date: 2018-10-23 16:07:44
+(epstopdf)                    size: 137717 bytes
+(epstopdf)             Output file: <images/slide41-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-23 16:14:54
+(epstopdf)                    size: 137630 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/slide41-eps-converte
+d-to.pdf images/slide41.eps>
+(epstopdf)             \includegraphics on input line 194.
+Package epstopdf Info: Output file is already uptodate.
+<images/slide41-eps-converted-to.pdf, id=62, 657.45625pt x 370.38374pt>
+File: images/slide41-eps-converted-to.pdf Graphic file (type pdf)
+<use images/slide41-eps-converted-to.pdf>
+Package pdftex.def Info: images/slide41-eps-converted-to.pdf  used on input lin
+e 194.
+(pdftex.def)             Requested size: 209.12683pt x 117.81311pt.
+Package epstopdf Info: Source file: <images/slide42.eps>
+(epstopdf)                    date: 2018-10-23 16:08:07
+(epstopdf)                    size: 137760 bytes
+(epstopdf)             Output file: <images/slide42-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-23 16:14:55
+(epstopdf)                    size: 137660 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/slide42-eps-converte
+d-to.pdf images/slide42.eps>
+(epstopdf)             \includegraphics on input line 200.
+Package epstopdf Info: Output file is already uptodate.
+<images/slide42-eps-converted-to.pdf, id=63, 700.6175pt x 376.40625pt>
+File: images/slide42-eps-converted-to.pdf Graphic file (type pdf)
+<use images/slide42-eps-converted-to.pdf>
+Package pdftex.def Info: images/slide42-eps-converted-to.pdf  used on input lin
+e 200.
+(pdftex.def)             Requested size: 209.12683pt x 112.35413pt.
+ [12 <./images/slide41-eps-converted-to.pdf> <./images/slide42-eps-converted-to
+.pdf>]
+Package epstopdf Info: Source file: <images/slide43.eps>
+(epstopdf)                    date: 2018-10-23 16:08:29
+(epstopdf)                    size: 141633 bytes
+(epstopdf)             Output file: <images/slide43-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-23 16:14:57
+(epstopdf)                    size: 142256 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/slide43-eps-converte
+d-to.pdf images/slide43.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+<images/slide43-eps-converted-to.pdf, id=73, 641.39626pt x 395.4775pt>
+File: images/slide43-eps-converted-to.pdf Graphic file (type pdf)
+<use images/slide43-eps-converted-to.pdf>
+Package pdftex.def Info: images/slide43-eps-converted-to.pdf  used on input lin
+e 219.
+(pdftex.def)             Requested size: 209.12683pt x 128.94504pt.
+Package epstopdf Info: Source file: <images/slide44.eps>
+(epstopdf)                    date: 2018-10-23 16:08:55
+(epstopdf)                    size: 139880 bytes
+(epstopdf)             Output file: <images/slide44-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-23 16:14:59
+(epstopdf)                    size: 141346 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/slide44-eps-converte
+d-to.pdf images/slide44.eps>
+(epstopdf)             \includegraphics on input line 223.
+Package epstopdf Info: Output file is already uptodate.
+<images/slide44-eps-converted-to.pdf, id=74, 693.59125pt x 417.56pt>
+File: images/slide44-eps-converted-to.pdf Graphic file (type pdf)
+<use images/slide44-eps-converted-to.pdf>
+Package pdftex.def Info: images/slide44-eps-converted-to.pdf  used on input lin
+e 223.
+(pdftex.def)             Requested size: 209.12683pt x 125.89973pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./images/slide43-eps-converted-to.pdf>] [14 <./images/slide44-eps-converte
+d-to.pdf>]
+Chapter 3.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+]
+Underfull \hbox (badness 4156) in paragraph at lines 260--260
 []\OT1/cmr/m/n/12 Gettier Truth-tellers an-nounce
  []
 
 
-Overfull \hbox (27.83478pt too wide) in paragraph at lines 183--189
+Overfull \hbox (27.83478pt too wide) in paragraph at lines 257--263
 [][] 
  []
 
@@ -779,94 +954,91 @@ Package epstopdf Info: Source file: <images/gettiermodelbase.eps>
 (epstopdf)                    size: 8671 bytes
 (epstopdf)             Output file: <images/gettiermodelbase-eps-converted-to.p
 df>
-(epstopdf)                    date: 2018-10-23 09:13:14
+(epstopdf)                    date: 2018-10-23 16:15:00
 (epstopdf)                    size: 8738 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/gettiermodelbase-eps
 -converted-to.pdf images/gettiermodelbase.eps>
-(epstopdf)             \includegraphics on input line 198.
+(epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
-<images/gettiermodelbase-eps-converted-to.pdf, id=50, 353.32pt x 156.585pt>
+<images/gettiermodelbase-eps-converted-to.pdf, id=91, 353.32pt x 156.585pt>
 File: images/gettiermodelbase-eps-converted-to.pdf Graphic file (type pdf)
 <use images/gettiermodelbase-eps-converted-to.pdf>
 Package pdftex.def Info: images/gettiermodelbase-eps-converted-to.pdf  used on 
-input line 198.
+input line 272.
 (pdftex.def)             Requested size: 209.12683pt x 92.68062pt.
-[9
-
-]
+[16]
 Package epstopdf Info: Source file: <images/slide19.eps>
 (epstopdf)                    date: 2018-10-21 16:45:24
 (epstopdf)                    size: 48821 bytes
 (epstopdf)             Output file: <images/slide19-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:15
+(epstopdf)                    date: 2018-10-23 16:15:01
 (epstopdf)                    size: 40262 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/slide19-eps-converte
 d-to.pdf images/slide19.eps>
-(epstopdf)             \includegraphics on input line 207.
+(epstopdf)             \includegraphics on input line 281.
 Package epstopdf Info: Output file is already uptodate.
-<images/slide19-eps-converted-to.pdf, id=55, 409.53pt x 303.1325pt>
+<images/slide19-eps-converted-to.pdf, id=98, 409.53pt x 303.1325pt>
 File: images/slide19-eps-converted-to.pdf Graphic file (type pdf)
 <use images/slide19-eps-converted-to.pdf>
 Package pdftex.def Info: images/slide19-eps-converted-to.pdf  used on input lin
-e 207.
+e 281.
 (pdftex.def)             Requested size: 209.12683pt x 154.79904pt.
 Package epstopdf Info: Source file: <images/slide21.eps>
 (epstopdf)                    date: 2018-10-21 16:45:53
 (epstopdf)                    size: 124523 bytes
 (epstopdf)             Output file: <images/slide21-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:16
+(epstopdf)                    date: 2018-10-23 16:15:03
 (epstopdf)                    size: 51814 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/slide21-eps-converte
 d-to.pdf images/slide21.eps>
-(epstopdf)             \includegraphics on input line 213.
+(epstopdf)             \includegraphics on input line 287.
 Package epstopdf Info: Output file is already uptodate.
-<images/slide21-eps-converted-to.pdf, id=56, 460.72125pt x 306.14375pt>
+<images/slide21-eps-converted-to.pdf, id=99, 460.72125pt x 306.14375pt>
 File: images/slide21-eps-converted-to.pdf Graphic file (type pdf)
 <use images/slide21-eps-converted-to.pdf>
 Package pdftex.def Info: images/slide21-eps-converted-to.pdf  used on input lin
-e 213.
+e 287.
 (pdftex.def)             Requested size: 209.12683pt x 138.95927pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10 <./images/gettiermodelbase-eps-converted-to.pdf> <./images/slide19-eps-conv
-erted-to.pdf>] [11 <./images/slide21-eps-converted-to.pdf>]
-Chapter 3.
+[17 <./images/gettiermodelbase-eps-converted-to.pdf> <./images/slide19-eps-conv
+erted-to.pdf>]
 Package epstopdf Info: Source file: <images/slide25.eps>
 (epstopdf)                    date: 2018-10-21 16:48:37
 (epstopdf)                    size: 41637 bytes
 (epstopdf)             Output file: <images/slide25-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:17
+(epstopdf)                    date: 2018-10-23 16:15:04
 (epstopdf)                    size: 40719 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/slide25-eps-converte
 d-to.pdf images/slide25.eps>
-(epstopdf)             \includegraphics on input line 231.
+(epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
-<images/slide25-eps-converted-to.pdf, id=72, 426.59375pt x 297.11pt>
+<images/slide25-eps-converted-to.pdf, id=109, 426.59375pt x 297.11pt>
 File: images/slide25-eps-converted-to.pdf Graphic file (type pdf)
 <use images/slide25-eps-converted-to.pdf>
 Package pdftex.def Info: images/slide25-eps-converted-to.pdf  used on input lin
-e 231.
+e 305.
 (pdftex.def)             Requested size: 209.12683pt x 145.65317pt.
 Package epstopdf Info: Source file: <images/slide27.eps>
 (epstopdf)                    date: 2018-10-21 16:49:00
 (epstopdf)                    size: 169403 bytes
 (epstopdf)             Output file: <images/slide27-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:19
+(epstopdf)                    date: 2018-10-23 16:15:06
 (epstopdf)                    size: 133942 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/slide27-eps-converte
 d-to.pdf images/slide27.eps>
-(epstopdf)             \includegraphics on input line 236.
+(epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
-<images/slide27-eps-converted-to.pdf, id=73, 455.7025pt x 300.12125pt>
+<images/slide27-eps-converted-to.pdf, id=110, 455.7025pt x 300.12125pt>
 File: images/slide27-eps-converted-to.pdf Graphic file (type pdf)
 <use images/slide27-eps-converted-to.pdf>
 Package pdftex.def Info: images/slide27-eps-converted-to.pdf  used on input lin
-e 236.
+e 310.
 (pdftex.def)             Requested size: 209.12683pt x 137.7323pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--241
+Underfull \hbox (badness 10000) in paragraph at lines 301--315
 
  []
 
@@ -876,48 +1048,46 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12
-
-] [13 <./images/slide25-eps-converted-to.pdf> <./images/slide27-eps-converted-t
-o.pdf>]
+[18 <./images/slide21-eps-converted-to.pdf>] [19 <./images/slide25-eps-converte
+d-to.pdf> <./images/slide27-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/slide30.eps>
 (epstopdf)                    date: 2018-10-21 16:49:25
 (epstopdf)                    size: 44182 bytes
 (epstopdf)             Output file: <images/slide30-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:20
+(epstopdf)                    date: 2018-10-23 16:15:07
 (epstopdf)                    size: 44090 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/slide30-eps-converte
 d-to.pdf images/slide30.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             \includegraphics on input line 331.
 Package epstopdf Info: Output file is already uptodate.
-<images/slide30-eps-converted-to.pdf, id=87, 411.5375pt x 299.1175pt>
+<images/slide30-eps-converted-to.pdf, id=127, 411.5375pt x 299.1175pt>
 File: images/slide30-eps-converted-to.pdf Graphic file (type pdf)
 <use images/slide30-eps-converted-to.pdf>
 Package pdftex.def Info: images/slide30-eps-converted-to.pdf  used on input lin
-e 257.
+e 331.
 (pdftex.def)             Requested size: 209.12683pt x 152.0002pt.
 Package epstopdf Info: Source file: <images/slide32.eps>
 (epstopdf)                    date: 2018-10-21 16:49:46
 (epstopdf)                    size: 167361 bytes
 (epstopdf)             Output file: <images/slide32-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:21
+(epstopdf)                    date: 2018-10-23 16:15:09
 (epstopdf)                    size: 48063 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/slide32-eps-converte
 d-to.pdf images/slide32.eps>
-(epstopdf)             \includegraphics on input line 262.
+(epstopdf)             \includegraphics on input line 336.
 Package epstopdf Info: Output file is already uptodate.
-<images/slide32-eps-converted-to.pdf, id=88, 423.5825pt x 297.11pt>
+<images/slide32-eps-converted-to.pdf, id=128, 423.5825pt x 297.11pt>
 File: images/slide32-eps-converted-to.pdf Graphic file (type pdf)
 <use images/slide32-eps-converted-to.pdf>
 Package pdftex.def Info: images/slide32-eps-converted-to.pdf  used on input lin
-e 262.
+e 336.
 (pdftex.def)             Requested size: 209.12683pt x 146.68681pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--267
+Underfull \hbox (badness 10000) in paragraph at lines 327--341
 
  []
 
-[14 <./images/slide30-eps-converted-to.pdf> <./images/slide32-eps-converted-to.
+[20 <./images/slide30-eps-converted-to.pdf> <./images/slide32-eps-converted-to.
 pdf>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -926,77 +1096,82 @@ Package epstopdf Info: Source file: <images/slide34.eps>
 (epstopdf)                    date: 2018-10-21 16:50:09
 (epstopdf)                    size: 42863 bytes
 (epstopdf)             Output file: <images/slide34-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:22
+(epstopdf)                    date: 2018-10-23 16:15:10
 (epstopdf)                    size: 40958 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/slide34-eps-converte
 d-to.pdf images/slide34.eps>
-(epstopdf)             \includegraphics on input line 280.
+(epstopdf)             \includegraphics on input line 354.
 Package epstopdf Info: Output file is already uptodate.
-<images/slide34-eps-converted-to.pdf, id=98, 416.55624pt x 301.125pt>
+<images/slide34-eps-converted-to.pdf, id=138, 416.55624pt x 301.125pt>
 File: images/slide34-eps-converted-to.pdf Graphic file (type pdf)
 <use images/slide34-eps-converted-to.pdf>
 Package pdftex.def Info: images/slide34-eps-converted-to.pdf  used on input lin
-e 280.
+e 354.
 (pdftex.def)             Requested size: 209.12683pt x 151.17783pt.
 Package epstopdf Info: Source file: <images/slide36.eps>
 (epstopdf)                    date: 2018-10-21 16:50:29
 (epstopdf)                    size: 196605 bytes
 (epstopdf)             Output file: <images/slide36-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 09:13:23
+(epstopdf)                    date: 2018-10-23 16:15:12
 (epstopdf)                    size: 54406 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/slide36-eps-converte
 d-to.pdf images/slide36.eps>
-(epstopdf)             \includegraphics on input line 285.
+(epstopdf)             \includegraphics on input line 359.
 Package epstopdf Info: Output file is already uptodate.
-<images/slide36-eps-converted-to.pdf, id=99, 500.87125pt x 299.1175pt>
+<images/slide36-eps-converted-to.pdf, id=139, 500.87125pt x 299.1175pt>
 File: images/slide36-eps-converted-to.pdf Graphic file (type pdf)
 <use images/slide36-eps-converted-to.pdf>
 Package pdftex.def Info: images/slide36-eps-converted-to.pdf  used on input lin
-e 285.
+e 359.
 (pdftex.def)             Requested size: 209.12683pt x 124.88908pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--290
+Underfull \hbox (badness 10000) in paragraph at lines 350--364
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15 <./images/slide34-eps-converted-to.pdf>] [16 <./images/slide36-eps-converte
+[21 <./images/slide34-eps-converted-to.pdf>] [22 <./images/slide36-eps-converte
 d-to.pdf>]
 Chapter 4.
-[17
+[23
 
-] [18
+] [24
 
 ] (PHIL315REPORT.aux)
 Package logreq Info: Writing requests to 'PHIL315REPORT.run.xml'.
 \openout1 = `PHIL315REPORT.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 68 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 12089 strings out of 493305
- 214311 string characters out of 3138877
- 818749 words of memory out of 3000000
- 15478 multiletter control sequences out of 15000+200000
+ 12110 strings out of 493305
+ 215186 string characters out of 3138877
+ 819668 words of memory out of 3000000
+ 15494 multiletter control sequences out of 15000+200000
  15318 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,13n,63p,819b,3904s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
-crm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PHIL315REPORT.pdf (18 pages, 891650 bytes).
+ 50i,13n,60p,1082b,3904s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+en\ec\dpi600\tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+csc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb>
+Output written on PHIL315REPORT.pdf (24 pages, 1571559 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
+ 201 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

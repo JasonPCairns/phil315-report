@@ -5,6 +5,7 @@
 \usepackage{textcomp}
 \usepackage{float}
 \usepackage{amssymb}
+\usepackage{amsfonts}
 \usepackage{sidecap}
 \usepackage[notes]{biblatex-chicago}
 \bibliography{./references/references}
@@ -14,7 +15,7 @@
 \pagestyle{fancy}
 \fancyhead{}
 \fancyhead[LO,RE]{Liars, Truth-tellers, and Interactive Identification}
-\fancyhead[RO,LE]{Perry, Axford, Cairns}
+\fancyhead[RO,LE]{Axford, Cairns, Perry}
 \fancyfoot{}
 \fancyfoot[LE,RO]{\thepage}
 \fancyfoot[LO,CE]{Section \thesection}
@@ -24,7 +25,7 @@
 {\includegraphics[width=11cm]{alice.eps}}\\
 {\large University of Auckland}\\
 {\large Philosophy 315}\\
-\author{Emma Perry, Forrest Axford, Jason Cairns}}
+\author{Forrest Axford, Jason Cairns, Emma Perry}}
 
 \newcommand{\true}{$T\text{\textmusicalnote}$}
 \newcommand{\false}{$F\text{\textmusicalnote}$}
@@ -37,10 +38,37 @@
 \section*{Abstract}
 Truth-telling and lying come in many different forms - we intend to develop a taxonomy through the exploration of some intuitive and counter-intuitive types, and determine how an agent's category can be identified through interaction.
 
-\section*{A Note on Belief}
-It’s worth noting that the way in which one determines belief can  have drastic impacts on logical systems of liars and truth tellers which consider belief.\autocite{sep-logic-action} If a Lockean conception of belief is used, $\tau$ being set to anything less than 0.5 can result in the speaker being both a liar and truth-teller simultaneously if using a system in which liars are those who say something they believe not to be true and truth-tellers are those that say something they believe to be true.\autocite{sep-logic-epistemic} 
+\chapter{Lies with Short Legs and Lies with Long Noses: Introduction \& Preliminaries}
 
-\chapter{Basic Types}
+\section{Introduction}
+Geppetto identifies two types of lies in \textit{Pinocchio} as ``those with short legs, and those with long noses.'' The \textit{Oxford English Dictionary} prefers to define lying with a bit more clarity – it claims lying is characterized as “[making] a false statement with the intention to deceive.” [footnote: oed.txt] Neither the former, nor the latter, nor any other proposed definitions of lying are universally accepted as adequate however. [footnote: seplying.txt]\\
+This paper utilises epistemic and doxastic logic to investigate the nature of lying and truth-telling. This investigation is conducted through an initial presentation of possible logical definitions of liars and truth-tellers, followed by a look at a few games with a loosely `knights and knaves’-like premise to clarify some points of difference between some possible definitions of lying and truth-telling. A relationship between the justification of the belief an agent holds regarding the statement they are expressing and what type of liar or truth-teller they are is identified and used as a preliminary basis of inquiry into the role belief justification may play in conceptions of lying and truth-telling. Liars and truth-tellers with Gettier Knowledge are considered to further investigate this, and then used as a starting point to examine other types of justified or unjustified liars and truth-tellers. Finally, some concluding remarks and a reflection on the work put forth are presented, along with areas for further work and a bibliography.\\
+We first set out a number of key assumptions and limitations embedded within our investigation however; as they are numerous and of critical importance to the underlying logic and premises.
+
+\section{Assumptions, Notation, and Limitations}
+The following inquiry is premised upon several key assumptions. 
+We assume that lying or truth telling involves: 
+\begin{itemize}
+\item A statement, $\psi$, which is either a truth or lie 
+\item An agent (either a liar or truth-teller) expressing the statement, denoted by \false$\psi$ if the agent is a liar, \true$\psi$ if the agent is a truth teller, or $X \text{\textmusicalnote} \psi$ if it is unknown whether the agent expressing $\psi$ is a liar or truth teller 
+\item At least one agent constituting the Audience of the agent expressing $\psi$, denoted by $\mathcal{A}$. We also assume that all liars announcing $\psi$ do so with the intent to deceive $\mathcal{A}$, and that all truth tellers announcing $\psi$ do so without the intent to deceive $\mathcal{A}$. This intent is not included in our subsequent logical formulations of lying and truth telling but is built into all of them via this assumption to avoid repetition. Assumptions regarding the nature of the logic of belief are also built into our analysis.
+\end{itemize}
+
+\subsection{The Importance of Intent}
+It is worth noting that the speaker’s intent to deceive by expressing $\psi$ is not inherently related to the speaker’s belief in $\psi$. A speaker may both believe [psi] and express [psi] with an intent to deceive – for example, imagine Anita asks Benito:\\
+ “Did you see Chidi yesterday?”\\
+Benito, who met up with Chidi yesterday for a working lunch in which Benito worked on a project for ETHICS 101 and Chidi worked on a project for PHIL 315, replies:\\
+ “I think Chidi’s been working on his project for PHIL 315 all weekend.”\\
+ In this case, Benito’s expresses a statement he believes to be true, but does so with an intent to deceive Anita into thinking that he did not see Chidi yesterday.\\
+Similarly, a speaker may believe $\psi$ and announce $\neg \psi$ without any intention of deceiving the listener – for example, imagine Aroha says to Brian “Yeah, I totally hate Cherie” sarcastically, assuming that Brian knows that Aroha does not ‘totally hate Cherie’ at all, but rather adores Cherie. The statement is expressed for humorous or sarcastic effect with no intention of deception.\\
+These types of cases are excluded from our analysis by our implicit assumption that all lying is done with an intent to deceive, and all truth-telling is done without an intent to deceive.
+
+\subsection{A Note on Belief}
+It’s worth noting that the way in which one defines the logic of belief can have a drastic impact on the logic of liars and truth-tellers. If a Lockean conception of belief is used, a belief threshold $\tau \leq \frac{1}{2}$ can result in a speaker expressing a statement which they believe while they also believe its negation. When lying is defined as $(B_{x\tau} \wedge X\text{\textmusicalnote} \neg \psi)$, for example, the speaker may be both lying and not lying simultaneously. This is logically incoherent, and we therefore restrict our analysis to doxastic logics which either are not credence-based or do not allow for a Lockean framework of belief with $\tau \leq \frac{1}{2}$. 
+It is also important to note that the divide in the literature concerning doxastic attitudes (whether to consider belief in an all-or-nothing approach, as credence-based, or some combination thereof) results in significant challenges in the development of a consistent, coherent logic of liars and truth tellers – especially in conjunction with the formalization a taxonomy of liars and truth tellers which takes justification into account. [footnote: For more on doxastic attitudes and their relationship to evidence, see {the four different 10.1007%2Fs beginning bibtex citation files}].
+
+\chapter{Liars and Truth-Tellers and Omniscient Beings, Oh My!: Basic Types and Initial Games}
+\section{Initial Types of Liars and Truth-Tellers}
 \begin{table}[h]
 \begin{tabular}{lp{9cm}l}
 \hline
@@ -57,6 +85,7 @@ It’s worth noting that the way in which one determines belief can  have drasti
 10 & Lying as imparting what one knows to be false                                      & (\false$\psi \to K_L \neg \psi$)               \\ \hline
 \end{tabular}
 \end{table}
+To begin our investigation into the concept of lying and truth-telling, we generated several possible logical definitions of liars and truth tellers (See Table 1). We identify two of these basic systems of liars and truth-tellers as conceptually interesting and useful: [insert definition of truth-telling and lying as matching up with omniscient truth-tellers and liars and as matching up with sincere and insincere truth-tellers and liars]
 
 \section{Identifying Liars and Truth-tellers through an Update Game}
 A simple method of discernment between liars and truth-tellers is through the scope of an update game. For each of these games the agents must adhere to four key conditions:
@@ -94,7 +123,7 @@ The same is true for Ada Love-Lies by simply negating her statement.
 What if you are presented with an agent $a$, who is either Alan Truering or Ada Love-Lies, but you do not know which?\\
 This question is answered by the simple game that presupposes your knowledge of the true state of $\psi$ during the agent's announcement.\\
 If $\psi$ is true and the agent announced $\psi$ then you know the agent is Alan Truering. If $\neg \psi$ is true and the agent announces $\psi$ then you know you are dealing with Ada Love-Lies.
-This entails the following model, with $x$ as "you":
+This entails the following model, with $x$ as "you", the audience:
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.5\textwidth]{slide10.eps}
@@ -142,15 +171,15 @@ Finally, we look at a game in which the agent can exist in four possible states.
 \item Insincere man
 \end{itemize}
 If the agent announces $\psi$ you are unable initially to distinguish which state they are in, as per the following model:
-%uncomment below and delete this line when image available
-%\begin{figure}[h!]
-%  \centering
-%  \includegraphics[width=0.5\textwidth]{insert_image_here.eps}
-%  \caption{$a \text{\textmusicalnote} \psi$}
-%\end{figure}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{slide40.eps}
+  \caption{Before $a \text{\textmusicalnote} \psi$}
+\end{figure}
+
 However, if you come to know $\psi$ to be true then you can eliminate Ada Love-Lies from the possible states of $a$ due to her defining proposition: 
 $$(K_L \text{\textmusicalnote} \psi \to \neg \psi)$$
-Based on the following derivation:
+Based on the following derivation:\\
 \begin{align*}
 &(K_L \text{\textmusicalnote} \psi \wedge \psi )\\
 &(K_L \text{\textmusicalnote} \psi )\\
@@ -159,40 +188,85 @@ Based on the following derivation:
 &\neg \psi \\
 &\times
 \end{align*}
+With the following model:\\
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{slide41.eps}
+  \caption{After $a \text{\textmusicalnote} \psi$}
+\end{figure}
 The same format can be used to eliminate Allan Truering if you know $\neg \psi$.\\
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{slide42.eps}
+  \caption{After $a \text{\textmusicalnote} \psi$}
+\end{figure}
 Now with the knowledge of $\psi$, you must discern between Alan Truering and the sincere and insincere men.\\
 To do this, you must make an announcement. However, unlike the case in which you are restricted to sincere and insincere men you mus not announce $\psi$ - if you do then $\psi$ becomes public knowledge, thereby allowing the sincere man to hold knowledge of $\psi$, making them indistinguishable from Alan Truering.\\
 Instead, announce a simple conjunction:
 $$(\psi \to K\psi)$$ 
 Each agent will evaluate this statement with relation to their own type.\\
-For both sincere and insincere men who are simply ???????????
+For both sincere and insincere men who are simply evaluating $\psi \to K\psi$ as one normally would, they would correctly identify that $\psi \to K\psi$ does not hold as it is possible to have $\psi$ in the world without knowing $\psi$\\
 Thus if the agent is sincere they will believe the statement false and announce $\neg \psi$ as such. 
-$(B_T \text{\textmusicalnote} \neg (K \psi \to K \psi))$ \\
-An insincere man will also believe $\neg \psi$to be false???????????
-??????
-%uncomment below and delete this line when image available
-%\begin{figure}[h!]
-%  \centering
-%  \includegraphics[width=0.5\textwidth]{insert_image_here.eps}
-%  \caption{$a \text{\textmusicalnote} \psi$}
-%\end{figure}
-%NEED WORK ON FORREST SECTION - SEE QUESTION MARKS (?)
+$$(B_T \text{\textmusicalnote} \neg (K \psi \to K \psi))$$ \\
+An insincere man will also believe $\neg \psi$ to be false and as such will not believe it to be true. Therefore they will anounce it to be true as they will announce what they do not believe. i.e. $\psi \to K\psi$\\
+However, in the cases for both omniscient states, where this announcement does not follow the same course. For both omniscient states, the agents will know $\psi$ to be true($K\psi$). As the consequent is true, the implication holds true regardless of the antecedent. Therefore for them, $\psi \to K\psi$.
+$$K_T\text{\textmusicalnote} (\psi \to K\psi)$$
+However, Ada Love-Lies will announce the negation of what they know to be true, therefore;
+$$K_L\text{\textmusicalnote} \neg (\psi \to K\psi)$$
+We have the following model representations. Note: $\psi$ is in these cases true, so Ada Love-Lies has already been ruled out. Either of the following two models hold;
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{slide43.eps}
+\end{figure}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{slide44.eps}
+\end{figure}
 
-\chapter{Gettier Types}
+Now depending on the response, you can either stop there, as if they respond with $\neg (\psi \to K\psi)$ they can only possibly be the sincere man (as Ada Love-Lies has already been ruled out)\\
+If they announce $(\psi \to K\psi)$ to be true, you know the agent to either be Alan Truering or an insincere man.\\
+To differentiate between them, simply update the agent to $\psi$.
+$$X\text{\textmusicalnote}_a \psi \to (\psi \wedge K_a \psi)$$
+To this Alan Truering will announce that $\psi$ is still true. However, the insincere man will have to change his announcement.
+$$(((K_a \psi \to B_a \psi ) \to \neg B_a \psi) \to a \text{\textmusicalnote} \neg \psi)$$
+If $a$ announces $\psi$, they are Alan Truering, and if $a$ announces $\neg \psi$, they are the insincere man. These steps still work with $\neg \psi$ in the world by simply replacing all instances of $\psi$ with $\neg \psi$ in announcements and eliminating Alan Truering rather than Ada Love-Lies, prior to announcement.
+
+\chapter{Think It Over, Think It Under: Justification and Gettier Types}
+\section{Belief, Justification, and Knowledge}
+A justified belief may be thought of as a belief $\psi$ that is evidenced by a belief that there exists some $\phi$ such that $(\phi \to \psi)$ holds true and a belief in $\phi$. Let $J_X\psi$ signify that X has a justified belief in $\psi$ – that is:
+$$\vdash J_X\psi \leftrightarrow (B_X \psi \wedge B_X(\psi \to \psi) \wedge B_X \phi)$$ 
+Then we say X has a justified true belief in $\psi$ if, and only if $J_X\psi \wedge \psi$ holds true in the actual state of the world. Conversely, X has a justified false belief in $\psi$ if, and only if $J_X\psi \wedge \neg \psi$ holds true in the actual state of the world. 
+We prove knowledge of $\psi$ implies a justified true belief in $\psi$:
+\begin{align*}
+&1.  	&K_X\psi		\qquad \qquad \qquad	\qquad	&\text{Assumption}\\
+&2. 		 	&\vdash K_X\psi \to B_X\psi		\qquad	\qquad \qquad	\qquad		&\text{Belief Necessitation}\\
+&3. 			&\vdash K_X\psi \to \psi 				&\text{Facticity}\\
+&4. 			&K_X(K_X\psi \to \psi 	)				&\text{3, Epistemic Necessitation}\\
+&5. 			&B_X(K_X\psi \to \psi )					&\text{2, 4, Predicate Logic}\\
+&6. 			&K_XK_X \psi								&\text{1, Positive Introspection}\\
+&7.			&B_XK_X\psi								&\text{6, Belief Necessitation}\\
+&8. 			&B_XK_X\psi \wedge B_X(K_X\psi \to \psi )	&\text{5, 7, Predicate Logic}\\
+&9. 			&B_X\phi \wedge B_X(\phi \to \psi)		&\text{8, Substitution}\\
+&10. 		&J_X\psi									&\text{9, Justification Definition, PL}\\
+&11. 		&\psi 									&\text{1,3, Predicate Logic}\\
+&12.			&J_X\psi \wedge \psi						&\text{10, 11, Predicate Logic}\\
+&13. 		&K_X\psi \to (J_X\psi \wedge \psi )		&\text{1 - 12, Predicate Logic}
+\end{align*}
+
 \begin{table}[h]
 \begin{tabular}{lp{6cm}p{8cm}}
 \hline
    & Description                                                 & Logic                                                                                                           \\ \hline
-11 & Gettier Truth-tellers announce truth, for the wrong reasons & (\true$\psi \to ((\neg \chi \wedge \psi ) \wedge B_\tau (\chi \to \psi ) \wedge B_\tau \chi)$)       \\
-12 & Gettier Liars announce falsity, for the wrong reasons       & (\false$\neg \psi \to ((\neg \chi \wedge \psi ) \wedge B_\tau (\chi \to \psi ) \wedge B_\tau \chi)$) \\ \hline
+11 & Gettier Truth-tellers announce truth, for the wrong reasons & (\true$\psi \to ((\neg \phi \wedge \psi ) \wedge B_\tau (\phi \to \psi ) \wedge B_\tau \phi)$)       \\
+12 & Gettier Liars announce falsity, for the wrong reasons       & (\false$\neg \psi \to ((\neg \phi \wedge \psi ) \wedge B_\tau (\phi \to \psi ) \wedge B_\tau \phi)$) \\ \hline
 \end{tabular}
 \end{table}
-Based on Van Bentham's notion of a Gettier Truth-teller\autocite{BenthemJohanvan2010Mlfo}, consider a Gettier Truth-teller defined as such; Gettier Truth-tellers announce truth, sincerely, but based on false evidence. They announce $\psi$, which is true in reality, based on some evidence $\chi$, which is false in reality. They make this based on a modus ponens implication of $(\chi \to \psi)$, the only falsity being their belief in $\chi$, which is false.\\
+Based on Van Bentham's notion of a Gettier Truth-teller\autocite{BenthemJohanvan2010Mlfo}, consider a Gettier Truth-teller defined as such; Gettier Truth-tellers announce truth, sincerely, but based on false evidence. They announce $\psi$, which is true in reality, based on some evidence $\phi$, which is false in reality. They make this based on a modus ponens implication of $(\phi \to \psi)$, the only falsity being their belief in $\phi$, which is false.\\
 Gettier Liars exist in a similar manner, the primary difference being that they seek to deceive, negating the truth, which they succeed in, but based on evidence that is false.
 
 \section{Gettier Interactions}
-From their announcement of $\psi$ as well as your knowledge that they believe $\chi$ falsely, then due to the nature of implication, $(\chi \to \psi)$ holds regardless of the truth value of $\chi$, due to $\psi$ being true. Therefore you can't immediately conclude that they are a Gettier Truth-teller - they may be entirely generic.\\
-In order to ascertain them as Gettier, truthfully announce that their (false, but not necessarily known to you) antecedent $\chi$ leads to the negation of a different (true, but not known to them as true) consequent $\rho$,  giving the common knowledge $(\chi \to \neg \rho)$, and they should then be able to make the announcement of their belief in the negation of the (true) consequent $\rho$, i.e. $\neg \rho$, which you know to be a falsehood. This can be modelled as:\\
+From their announcement of $\psi$ as well as your knowledge that they believe $\phi$ falsely, then due to the nature of implication, $(\phi \to \psi)$ holds regardless of the truth value of $\phi$, due to $\psi$ being true. Therefore you can't immediately conclude that they are a Gettier Truth-teller - they may be entirely generic.\\
+In order to ascertain them as Gettier, truthfully announce that their (false, but not necessarily known to you) antecedent $\phi$ leads to the negation of a different (true, but not known to them as true) consequent $\rho$,  giving the common knowledge $(\phi \to \neg \rho)$, and they should then be able to make the announcement of their belief in the negation of the (true) consequent $\rho$, i.e. $\neg \rho$, which you know to be a falsehood. This can be modelled as:\\
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{gettiermodelbase.eps}
@@ -205,23 +279,23 @@ Gettier Liars Interaction is symmetrical to Gettier Truth-tellers - this is not 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{slide19.eps}
-  \caption{Before $(\chi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
+  \caption{Before $(\phi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
 \end{figure}
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{slide21.eps}
-  \caption{After $(\chi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
+  \caption{After $(\phi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
 \end{figure}
 
-\chapter{Non-Gettier Types}
+\section{Non-Gettier Types}
 What if you aren't a Gettier Truth-teller? Negating the necessary conditions of Gettier Truth-tellers gives rise to 3 other possible cases when the state of the actual world remains the same. These cases give insight on what other kinds of truth tellers or liars may exist and what might differentiate them.
 
 \section{The Beliefless Truth-teller}
-$$((\neg \chi \wedge \psi) \wedge \neg B(\chi \to \psi) \wedge \neg B \chi)$$
+$$((\neg \phi \wedge \psi) \wedge \neg B(\phi \to \psi) \wedge \neg B \phi)$$
 In this case, the speaker has no belief in any of the Gettier conditions. The speaker may very well have other types of belief or knowledge that contribute to the announcement of $\psi$, but these are further sub-cases to be examined. If there is no other belief or knowledge that pertains to $\psi$, a speaker satisfying these conditions announces $\psi$ with no rationale or justification. The announcement happens to be true in this world, but that is pure happenstance (when discarding other possible beliefs or knowledge).\\
 This case does allow for sub-cases in which the speaker does in fact have a justified true belief in $\psi$ however, as it allows for sub-cases such as:
-$$((\neg \chi \wedge \psi) \wedge \neg B(\chi \to \psi) \wedge B \neg \chi)$$
+$$((\neg \phi \wedge \psi) \wedge \neg B(\phi \to \psi) \wedge B \neg \phi)$$
 
 \subsection{State Plausibility Models}
 \quad
@@ -229,23 +303,23 @@ $$((\neg \chi \wedge \psi) \wedge \neg B(\chi \to \psi) \wedge B \neg \chi)$$
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.5\textwidth]{slide25.eps}
-  \caption{Before $(\chi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
+  \caption{Before $(\phi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
 \end{figure}
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.5\textwidth]{slide27.eps}
-  \caption{After $(\chi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
+  \caption{After $(\phi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
 \end{figure}
 \quad
 \newline
 
 \section{The Uninformed Accidental Truth-teller}
-$$((\neg \chi \wedge \psi) \wedge \neg B(\chi \to \psi) \wedge B \chi)$$
-In this case, one has an untrue belief about the world ($B\chi$ when $\neg \chi$), but also doesn't have a belief in the implication $(\chi \to \psi)$ that Gettier Truth Tellers have (a belief which holds true in reality in this state of the world). If one announces $\psi$ with these conditions, they are announcing a true thing but have very little rationale in doing so without considering additional beliefs. They are indifferent on $\psi$ if no other beliefs are held, and therefore announcing $\psi$ seems to be announcing something insincerely. One possible sub-case:
+$$((\neg \phi \wedge \psi) \wedge \neg B(\phi \to \psi) \wedge B \phi)$$
+In this case, one has an untrue belief about the world ($B\phi$ when $\neg \phi$), but also doesn't have a belief in the implication $(\phi \to \psi)$ that Gettier Truth Tellers have (a belief which holds true in reality in this state of the world). If one announces $\psi$ with these conditions, they are announcing a true thing but have very little rationale in doing so without considering additional beliefs. They are indifferent on $\psi$ if no other beliefs are held, and therefore announcing $\psi$ seems to be announcing something insincerely. One possible sub-case:
 \begin{align*}
-&((\neg \chi \wedge \psi) \wedge \neg B(\chi \to \psi) \wedge B \chi \wedge B \neg (\chi \to \psi ))\\
-\leftrightarrow &((\neg \chi \wedge \psi) \wedge \neg B(\chi \to \psi) \wedge B \chi \wedge B (\chi \wedge \neg \psi ))\\
-\leftrightarrow &((\neg \chi \wedge \psi) \wedge \neg B(\chi \to \psi) \wedge B \chi \wedge B \neg \psi)
+&((\neg \phi \wedge \psi) \wedge \neg B(\phi \to \psi) \wedge B \phi \wedge B \neg (\phi \to \psi ))\\
+\leftrightarrow &((\neg \phi \wedge \psi) \wedge \neg B(\phi \to \psi) \wedge B \phi \wedge B (\phi \wedge \neg \psi ))\\
+\leftrightarrow &((\neg \phi \wedge \psi) \wedge \neg B(\phi \to \psi) \wedge B \phi \wedge B \neg \psi)
 \end{align*}
 This sub-case is one in which the speaker announcing $\psi$ announces something true about the world, but does so by saying something she believes to be untrue - implying an intent to deceive and a type of lie, but announcing a true statement due to her incorrect beliefs. 
 
@@ -255,22 +329,22 @@ This sub-case is one in which the speaker announcing $\psi$ announces something 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.5\textwidth]{slide30.eps}
-  \caption{Before $(\chi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
+  \caption{Before $(\phi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
 \end{figure}
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.5\textwidth]{slide32.eps}
-  \caption{After $(\chi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
+  \caption{After $(\phi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
 \end{figure}
 \quad
 \newline
 
 \section{The Accurate Believer}
-$$(\neg \chi \wedge \psi) \wedge B(\chi \to \psi) \wedge \neg B \chi)$$
-In this case, announcing $\psi$ is again saying something true, but based on very little evidence without considering other beliefs the speaker may hold. They don’t believe $\chi$, but they do believe $(\chi \to \psi)$, and announcing $\psi$ may be with the intent to deceive if they don't believe $\psi$. This case is one in which the speaker has the most accurate set of beliefs. It is the only case in which the speaker both believes the true statement $(\chi \to \psi)$ and does not falsely believe $\chi$. Interestingly, this case is the only one in which Spohn Rank 0 contains only 5 cases rather than 6. This case allows for sub-cases in which the speaker has a justified true belief of $\psi$ or a justified false belief in $\neg \psi$.
+$$(\neg \phi \wedge \psi) \wedge B(\phi \to \psi) \wedge \neg B \phi)$$
+In this case, announcing $\psi$ is again saying something true, but based on very little evidence without considering other beliefs the speaker may hold. They don’t believe $\phi$, but they do believe $(\phi \to \psi)$, and announcing $\psi$ may be with the intent to deceive if they don't believe $\psi$. This case is one in which the speaker has the most accurate set of beliefs. It is the only case in which the speaker both believes the true statement $(\phi \to \psi)$ and does not falsely believe $\phi$. Interestingly, this case is the only one in which Spohn Rank 0 contains only 5 cases rather than 6. This case allows for sub-cases in which the speaker has a justified true belief of $\psi$ or a justified false belief in $\neg \psi$.
 
-$$(\neg \chi \wedge \psi) \wedge B(\chi \to \psi) \wedge \neg B \chi \wedge B(\psi \to \chi))$$
-In this case, one cannot be sincere in announcing $\psi$ as it would then result in $B\chi$ but it is given that $\neg B \chi$
+$$(\neg \phi \wedge \psi) \wedge B(\phi \to \psi) \wedge \neg B \phi \wedge B(\psi \to \phi))$$
+In this case, one cannot be sincere in announcing $\psi$ as it would then result in $B\phi$ but it is given that $\neg B \phi$
 
 \subsection{State Plausibility Models}
 \quad
@@ -278,12 +352,12 @@ In this case, one cannot be sincere in announcing $\psi$ as it would then result
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.5\textwidth]{slide34.eps}
-  \caption{Before $(\chi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
+  \caption{Before $(\phi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
 \end{figure}
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.5\textwidth]{slide36.eps}
-  \caption{After $(\chi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
+  \caption{After $(\phi \to \neg \rho)$ announcement, with the derived Spohn rank of states}
 \end{figure}
 \quad
 \newline
