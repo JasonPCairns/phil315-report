@@ -177,6 +177,41 @@
     \endentry
     \entry{Jackson2018}{article}{}
       \name{author}{1}{}{%
+        {{hash=5534b78d30f4ce6b5d7bcae849e9bccf}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{fullhash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{bibnamehash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{authorbibnamehash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{authornamehash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{authorfullhash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{I explore how rational belief and rational credence relate to evidence. I begin by looking at three cases where rational belief and credence seem to respond differently to evidence: cases of naked statistical evidence, lotteries, and hedged assertions. I consider an explanation for these cases, namely, that one ought not form beliefs on the basis of statistical evidence alone, and raise worries for this view. Then, I suggest another view that explains how belief and credence relate to evidence. My view focuses on the possibilities that the evidence makes salient. I argue that this makes better sense of the difference between rational credence and rational belief than other accounts.}
+      \field{issn}{1573-0964}
+      \field{journaltitle}{Synthese}
+      \field{month}{10}
+      \field{title}{Belief, credence, and evidence}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1007/s11229-018-01965-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11229-018-01965-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11229-018-01965-1
+      \endverb
+    \endentry
+    \entry{Jackson2018a}{article}{}
+      \name{author}{1}{}{%
         {{hash=0e183ca0a15f60695a01eae4fb39fa37}{%
            family={Jackson},
            familyi={J\bibinitperiod},

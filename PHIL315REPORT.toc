@@ -1,57 +1,57 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Lies with Short Legs and Lies with Long Noses: Introduction \& Preliminaries}{5}
+\contentsline {chapter}{\numberline {1}Lies with Short Legs and Lies with Long Noses: Introduction \& Preliminaries}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Introduction}{5}
+\contentsline {section}{\numberline {1.1}Introduction}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Assumptions, Notation, and Limitations}{6}
+\contentsline {section}{\numberline {1.2}Assumptions, Notation, and Limitations}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}The Importance of Intent}{6}
+\contentsline {subsection}{\numberline {1.2.1}The Importance of Intent}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}A Note on Belief}{7}
+\contentsline {subsection}{\numberline {1.2.2}A Note on Belief}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Liars and Truth-Tellers and Omniscient Beings, Oh My!: Basic Types and Initial Games}{8}
+\contentsline {chapter}{\numberline {2}Liars and Truth-Tellers and Omniscient Beings, Oh My!: Basic Types and Initial Games}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Initial Types of Liars and Truth-Tellers}{8}
+\contentsline {section}{\numberline {2.1}Initial Types of Liars and Truth-Tellers}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Identifying Liars and Truth-tellers through an Update Game}{9}
+\contentsline {section}{\numberline {2.2}Identifying Liars and Truth-tellers through an Update Game}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Interaction with Alan Truering and Ada Love-Lies}{9}
+\contentsline {subsection}{\numberline {2.2.1}Interaction with Alan Truering and Ada Love-Lies}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Identification of Alan Truering and Ada Love-Lies}{10}
+\contentsline {subsection}{\numberline {2.2.2}Identification of Alan Truering and Ada Love-Lies}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Sincere and Insincere Men}{11}
+\contentsline {section}{\numberline {2.3}Sincere and Insincere Men}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Identification of Sincerity}{11}
+\contentsline {subsection}{\numberline {2.3.1}Identification of Sincerity}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}A 4-Player Game}{12}
+\contentsline {section}{\numberline {2.4}A 4-Player Game}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Think It Over, Think It Under: Justification and Gettier Types}{16}
+\contentsline {chapter}{\numberline {3}Think It Over, Think It Under: Justification and Gettier Types}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Belief, Justification, and Knowledge}{16}
+\contentsline {section}{\numberline {3.1}Belief, Justification, and Knowledge}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Agents with Gettier Knowledge}{17}
+\contentsline {section}{\numberline {3.2}Agents with Gettier Knowledge}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Gettier Interactions}{18}
+\contentsline {section}{\numberline {3.3}Gettier Interactions}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}State Plausibility Models}{19}
+\contentsline {subsection}{\numberline {3.3.1}State Plausibility Models}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Non-Gettier Types}{19}
+\contentsline {section}{\numberline {3.4}Non-Gettier Types}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}The Beliefless Truth-teller}{20}
+\contentsline {section}{\numberline {3.5}The Beliefless Truth-teller}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}State Plausibility Models}{20}
+\contentsline {subsection}{\numberline {3.5.1}State Plausibility Models}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}The Uninformed Accidental Truth-teller}{21}
+\contentsline {section}{\numberline {3.6}The Uninformed Accidental Truth-teller}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}State Plausibility Models}{22}
+\contentsline {subsection}{\numberline {3.6.1}State Plausibility Models}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}The Accurate Believer}{22}
+\contentsline {section}{\numberline {3.7}The Accurate Believer}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.1}State Plausibility Models}{24}
+\contentsline {subsection}{\numberline {3.7.1}State Plausibility Models}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Why is a Raven like a Writing Desk?: Reflections and Suggestions for Further Work}{25}
+\contentsline {chapter}{\numberline {4}Why is a Raven like a Writing Desk?: Reflections and Suggestions for Further Work}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Reflections}{25}
+\contentsline {section}{\numberline {4.1}Reflections}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Suggestions for Further Work}{26}
+\contentsline {section}{\numberline {4.2}Further Considerations}{25}

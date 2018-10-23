@@ -34,14 +34,11 @@
 
 \maketitle
 \tableofcontents
-\newpage
-\section*{Abstract}
-Truth-telling and lying come in many different forms - we intend to develop a taxonomy through the exploration of some intuitive and counter-intuitive types, and determine how an agent's category can be identified through interaction.
 
 \chapter{Lies with Short Legs and Lies with Long Noses: Introduction \& Preliminaries}
 
 \section{Introduction}
-Geppetto identifies two types of lies in \textit{Pinocchio} as ``those with short legs, and those with long noses.'' The \textit{Oxford English Dictionary} prefers to define lying with a bit more clarity – it claims lying is characterized as “[making] a false statement with the intention to deceive.” \autocite{WeinerE.S.C.1989TOEd} Neither the former, nor the latter, nor any other proposed definitions of lying are universally accepted as adequate however.\autocite{sep-lying-definition}\\
+Geppetto identifies two types of lies in \textit{Pinocchio} as ``those with short legs, and those with long noses.'' The \textit{Oxford English Dictionary} prefers to define lying with a bit more clarity – it claims lying is characterized as ``[making] a false statement with the intention to deceive.'' \autocite{WeinerE.S.C.1989TOEd} Neither the former, nor the latter, nor any other proposed definitions of lying are universally accepted as adequate however.\autocite{sep-lying-definition}\\
 This paper utilises epistemic and doxastic logic to investigate the nature of lying and truth-telling. This investigation is conducted through an initial presentation of possible logical definitions of liars and truth-tellers, followed by a look at a few games with a loosely `knights and knaves’-like premise to clarify some points of difference between some possible definitions of lying and truth-telling. A relationship between the justification of the belief an agent holds regarding the statement they are expressing and what type of liar or truth-teller they are is identified and used as a preliminary basis of inquiry into the role belief justification may play in conceptions of lying and truth-telling. Liars and truth-tellers with Gettier Knowledge are considered to further investigate this, and then used as a starting point to examine other types of justified or unjustified liars and truth-tellers. Finally, some concluding remarks and a reflection on the work put forth are presented, along with areas for further work and a bibliography.\\
 We first set out a number of key assumptions and limitations embedded within our investigation however; as they are numerous and of critical importance to the underlying logic and premises.
 
@@ -51,25 +48,26 @@ We assume that lying or truth telling involves:
 \begin{itemize}
 \item A statement, $\psi$, which is either a truth or lie 
 \item An agent (either a liar or truth-teller) expressing the statement, denoted by \false$\psi$ if the agent is a liar, \true$\psi$ if the agent is a truth teller, or $X \text{\textmusicalnote} \psi$ if it is unknown whether the agent expressing $\psi$ is a liar or truth teller 
-\item At least one agent constituting the Audience of the agent expressing $\psi$, denoted by $\mathcal{A}$. We also assume that all liars announcing $\psi$ do so with the intent to deceive $\mathcal{A}$, and that all truth tellers announcing $\psi$ do so without the intent to deceive $\mathcal{A}$. This intent is not included in our subsequent logical formulations of lying and truth telling but is built into all of them via this assumption to avoid repetition. Assumptions regarding the nature of the logic of belief are also built into our analysis.
+\item At least one agent constituting the Audience of the agent expressing $\psi$, denoted by $\mathcal{A}$.
 \end{itemize}
+We also assume that all liars announcing $\psi$ do so with the intent to deceive $\mathcal{A}$, and that all truth tellers announcing $\psi$ do so without the intent to deceive $\mathcal{A}$. This intent is not included in our subsequent logical formulations of lying and truth telling but is built into all of them via this assumption to avoid repetition. Assumptions regarding the nature of the logic of belief are also built into our analysis.
 
 \subsection{The Importance of Intent}
-It is worth noting that the speaker’s intent to deceive by expressing $\psi$ is not inherently related to the speaker’s belief in $\psi$. A speaker may both believe [psi] and express [psi] with an intent to deceive – for example, imagine Anita asks Benito:\\
- “Did you see Chidi yesterday?”\\
+It is worth noting that the speaker's intent to deceive by expressing $\psi$ is not inherently related to the speaker's belief in $\psi$. A speaker may both believe $\psi$ and express $\psi$ with an intent to deceive – for example, imagine Anita asks Benito:\\
+ ``Did you see Chidi yesterday?''\\
 Benito, who met up with Chidi yesterday for a working lunch in which Benito worked on a project for ETHICS 101 and Chidi worked on a project for PHIL 315, replies:\\
- “I think Chidi’s been working on his project for PHIL 315 all weekend.”\\
- In this case, Benito’s expresses a statement he believes to be true, but does so with an intent to deceive Anita into thinking that he did not see Chidi yesterday.\\
-Similarly, a speaker may believe $\psi$ and announce $\neg \psi$ without any intention of deceiving the listener – for example, imagine Aroha says to Brian “Yeah, I totally hate Cherie” sarcastically, assuming that Brian knows that Aroha does not ‘totally hate Cherie’ at all, but rather adores Cherie. The statement is expressed for humorous or sarcastic effect with no intention of deception.\\
+ ``I think Chidi's been working on his project for PHIL 315 all weekend.''\\
+ In this case, Benito's expresses a statement he believes to be true, but does so with an intent to deceive Anita into thinking that he did not see Chidi yesterday.\\
+Similarly, a speaker may believe $\psi$ and announce $\neg \psi$ without any intention of deceiving the listener – for example, imagine Aroha says to Brian ``Yeah, I totally hate Cherie'' sarcastically, assuming that Brian knows that Aroha does not `totally hate Cherie' at all, but rather adores Cherie. The statement is expressed for humorous or sarcastic effect with no intention of deception.\\
 These types of cases are excluded from our analysis by our implicit assumption that all lying is done with an intent to deceive, and all truth-telling is done without an intent to deceive.
 
 \subsection{A Note on Belief}
-It’s worth noting that the way in which one defines the logic of belief can have a drastic impact on the logic of liars and truth-tellers. If a Lockean conception of belief is used, a belief threshold $\tau \leq \frac{1}{2}$ can result in a speaker expressing a statement which they believe while they also believe its negation. When lying is defined as $(B_{x\tau} \wedge X\text{\textmusicalnote} \neg \psi)$, for example, the speaker may be both lying and not lying simultaneously. This is logically incoherent, and we therefore restrict our analysis to doxastic logics which either are not credence-based or do not allow for a Lockean framework of belief with $\tau \leq \frac{1}{2}$. 
-It is also important to note that the divide in the literature concerning doxastic attitudes (whether to consider belief in an all-or-nothing approach, as credence-based, or some combination thereof) results in significant challenges in the development of a consistent, coherent logic of liars and truth tellers – especially in conjunction with the formalization a taxonomy of liars and truth tellers which takes justification into account.\autocite{Buchak2014,Jackson2018,AdamCarter2016,Jackson2018}
+It's worth noting that the way in which one defines the logic of belief can have a drastic impact on the logic of liars and truth-tellers. If a Lockean conception of belief is used, a belief threshold $\tau \leq \frac{1}{2}$ can result in a speaker expressing a statement which they believe while they also believe its negation. When lying is defined as $(B^x_{\tau} \wedge X\text{\textmusicalnote} \neg \psi)$, for example, the speaker may be both lying and not lying simultaneously. This is logically incoherent, and we therefore restrict our analysis to doxastic logics which either are not credence-based or do not allow for a Lockean framework of belief with $\tau \leq \frac{1}{2}$. 
+It is also important to note that the divide in the literature concerning doxastic attitudes (whether to consider belief in an all-or-nothing approach, as credence-based, or some combination thereof) results in significant challenges in the development of a consistent, coherent logic of liars and truth tellers – especially in conjunction with the formalization a taxonomy of liars and truth tellers which takes justification into account.\autocite{Buchak2014,Jackson2018a,AdamCarter2016,Jackson2018}
 
 \chapter{Liars and Truth-Tellers and Omniscient Beings, Oh My!: Basic Types and Initial Games}
 \section{Initial Types of Liars and Truth-Tellers}
-To begin our investigation into the concept of lying and truth-telling, we generated several possible logical definitions of liars and truth tellers as per the table below. We identify two of these basic systems of liars and truth-tellers as conceptually interesting and useful.
+To begin our investigation into the concept of lying and truth-telling, we generated several possible logical definitions of liars and truth tellers as per the table below.
 
 \begin{table}[h]
 \begin{tabular}{lp{9cm}l}
@@ -124,7 +122,7 @@ The same is true for Ada Love-Lies by simply negating her statement.
 What if you are presented with an agent $a$, who is either Alan Truering or Ada Love-Lies, but you do not know which?\\
 This question is answered by the simple game that presupposes your knowledge of the true state of $\psi$ during the agent's announcement.\\
 If $\psi$ is true and the agent announced $\psi$ then you know the agent is Alan Truering. If $\neg \psi$ is true and the agent announces $\psi$ then you know you are dealing with Ada Love-Lies.
-This entails the following model, with $x$ as "you", the audience:
+This entails the following model, with $x$ as ``you'', the audience:
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.5\textwidth]{slide10.eps}
@@ -163,7 +161,6 @@ A sincere man will always state $a \text{\textmusicalnote} \psi$ as they now bel
 An insincere man will always state $a \text{\textmusicalnote} \neg \psi$ as they now believe $\psi$ with $\tau = \infty$ and as such unless they have a threshold of $0$, they will $\neg B_a \neg \psi$
 
 \section{A 4-Player Game}
-%NEED WORK ON FORREST SECTION - SEE QUESTION MARKS (?)
 Finally, we look at a game in which the agent can exist in four possible states. The agent can be either:
 \begin{itemize}
 \item Alan Truering (omniscient truth-teller)
@@ -209,7 +206,7 @@ Each agent will evaluate this statement with relation to their own type.\\
 For both sincere and insincere men who are simply evaluating $\psi \to K\psi$ as one normally would, they would correctly identify that $\psi \to K\psi$ does not hold as it is possible to have $\psi$ in the world without knowing $\psi$\\
 Thus if the agent is sincere they will believe the statement false and announce $\neg \psi$ as such. 
 $$(B_T \text{\textmusicalnote} \neg (K \psi \to K \psi))$$ \\
-An insincere man will also believe $\neg \psi$ to be false and as such will not believe it to be true. Therefore they will anounce it to be true as they will announce what they do not believe. i.e. $\psi \to K\psi$\\
+An insincere man will also believe $\neg \psi$ to be false and as such will not believe it to be true. Therefore they will announce it to be true as they will announce what they do not believe. i.e. $\psi \to K\psi$\\
 However, in the cases for both omniscient states, where this announcement does not follow the same course. For both omniscient states, the agents will know $\psi$ to be true($K\psi$). As the consequent is true, the implication holds true regardless of the antecedent. Therefore for them, $\psi \to K\psi$.
 $$K_T\text{\textmusicalnote} (\psi \to K\psi)$$
 However, Ada Love-Lies will announce the negation of what they know to be true, therefore;
@@ -234,9 +231,9 @@ If $a$ announces $\psi$, they are Alan Truering, and if $a$ announces $\neg \psi
 
 \chapter{Think It Over, Think It Under: Justification and Gettier Types}
 \section{Belief, Justification, and Knowledge}
-A justified belief may be thought of as a belief $\psi$ that is evidenced by a belief that there exists some $\phi$ such that $(\phi \to \psi)$ holds true and a belief in $\phi$. Let $J_X\psi$ signify that X has a justified belief in $\psi$ – that is:
-$$\vdash J_X\psi \leftrightarrow (B_X \psi \wedge B_X(\psi \to \psi) \wedge B_X \phi)$$ 
-Then we say X has a justified true belief in $\psi$ if, and only if $J_X\psi \wedge \psi$ holds true in the actual state of the world. Conversely, X has a justified false belief in $\psi$ if, and only if $J_X\psi \wedge \neg \psi$ holds true in the actual state of the world. 
+A justified belief may be thought of as a belief $\psi$ that is evidenced by a belief that there exists some $\phi$ such that $(\phi \to \psi)$ holds true and a belief in $\phi$. Let $J_X\psi$ signify that X has a justified belief in $\psi$ - that is:
+$$\vdash J_X\psi \leftrightarrow (B_X \psi \wedge B_X(\phi \to \psi) \wedge B_X \phi)$$ 
+Then we say X has a justified true belief in $\psi$ if and only if $J_X\psi \wedge \psi$ holds true in the actual state of the world. Conversely, X has a justified false belief in $\psi$ if and only if $J_X\psi \wedge \neg \psi$ holds true in the actual state of the world. 
 We prove knowledge of $\psi$ implies a justified true belief in $\psi$:
 
 \begin{table}[h]
@@ -350,7 +347,7 @@ This sub-case is one in which the speaker announcing $\psi$ announces something 
 
 \section{The Accurate Believer}
 $$(\neg \phi \wedge \psi) \wedge B(\phi \to \psi) \wedge \neg B \phi)$$
-In this case, announcing $\psi$ is again saying something true, but based on very little evidence without considering other beliefs the speaker may hold. They don’t believe $\phi$, but they do believe $(\phi \to \psi)$, and announcing $\psi$ may be with the intent to deceive if they don't believe $\psi$. This case is one in which the speaker has the most accurate set of beliefs. It is the only case in which the speaker both believes the true statement $(\phi \to \psi)$ and does not falsely believe $\phi$. Interestingly, this case is the only one in which Spohn Rank 0 contains only 5 cases rather than 6. This case allows for sub-cases in which the speaker has a justified true belief of $\psi$ or a justified false belief in $\neg \psi$.
+In this case, announcing $\psi$ is again saying something true, but based on very little evidence without considering other beliefs the speaker may hold. They don't believe $\phi$, but they do believe $(\phi \to \psi)$, and announcing $\psi$ may be with the intent to deceive if they don't believe $\psi$. This case is one in which the speaker has the most accurate set of beliefs. It is the only case in which the speaker both believes the true statement $(\phi \to \psi)$ and does not falsely believe $\phi$. Interestingly, this case is the only one in which Spohn Rank 0 contains only 5 cases rather than 6. This case allows for sub-cases in which the speaker has a justified true belief of $\psi$ or a justified false belief in $\neg \psi$.
 
 $$(\neg \phi \wedge \psi) \wedge B(\phi \to \psi) \wedge \neg B \phi \wedge B(\psi \to \phi))$$
 In this case, one cannot be sincere in announcing $\psi$ as it would then result in $B\phi$ but it is given that $\neg B \phi$
@@ -373,23 +370,16 @@ In this case, one cannot be sincere in announcing $\psi$ as it would then result
 
 \chapter{Why is a Raven like a Writing Desk?: Reflections and Suggestions for Further Work}
 \section{Reflections}
-Throughout this project, one of our greatest challenges seemed to be in delineating a specific, narrow focus. We ended up expanding some problems rather than reducing them (e.g. considering the notion of justification ended up giving rise to more questions than answers). We would have liked to go into greater detail with computational aspects and evaluate if this sort of framework has use beyond a thought experiment. We would have probably benefited from choosing a broad topic and working to narrow it down rather than starting from a specific notion of pre-conditions and their relation to lying and truth-telling (inspired by a brief section in Johan van Benthem’s Logical Dynamics of Information and Interaction)\autocite{BenthemJohanvan2011Ldoi} and expanding it outwards. Despite this challenge, we believe the content put forth in this paper is of strong conceptual use.
+Throughout this project, one of our greatest challenges seemed to be in delineating a specific, narrow focus. We ended up expanding some problems rather than reducing them (e.g. considering the notion of justification ended up giving rise to more questions than answers). We would have liked to go into greater detail with computational aspects and evaluate if this sort of framework has use beyond a thought experiment. We would have probably benefited from choosing a broad topic and working to narrow it down rather than starting from a specific notion of pre-conditions and their relation to lying and truth-telling (inspired by a brief section in Johan van Benthem's \textit{Logical Dynamics of Information and Interaction})\autocite{BenthemJohanvan2011Ldoi} and expanding it outwards. Despite this challenge, we believe the content put forth in this paper is of some conceptual use.
 \newpage
-\section{Suggestions for Further Work}
-Meta:
+\section{Further Considerations}
+
 \begin{itemize}
-\item Is there an exhaustive list of liars and truth-tellers?
-\item Is it even possible to arrive at one at all?
-\end{itemize}
-Basic Types:
-\begin{itemize}
-\item Interactions between omniscient and insincere men
-\item How different thresholds affect what can be claimed by sincere and insincere men ($\tau \leq \frac{1}{2}$ and $\tau > \frac{1}{2}$)
-\end{itemize}
-Building on Gettier and non-Gettier Types:
-\begin{itemize}
-\item What sub-cases arise from the non-Gettier cases?\item What facets of interaction with these different sub-case agents will differ?
+\item Is there an exhaustive list of liars and truth-tellers? Is it even possible to arrive at one at all?
+\item Interactions between different types of agents in social networks
+\item What sub-cases arise from the non-Gettier cases? What facets of interaction with these different sub-case agents will differ?
 \item Is this non-Gettier approach a useful approach or is too much redundancy embedded in it?
+\item How do justified and unjustified true beliefs impact the diffusion of reliable information in social networks with truth-tellers and liars
 \end{itemize}
 
 \printbibliography
